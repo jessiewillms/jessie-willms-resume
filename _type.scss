@@ -1,0 +1,52 @@
+p.num {
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 2rem;
+	line-height: 3rem;
+	border-bottom: $border;
+	max-width: 8%;
+	margin: 0 auto;
+}
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2rem;
+	line-height: 3rem;
+	margin: $margin 0;
+	letter-spacing: 3px;
+}
+p {
+	line-height: 2.85rem;
+	font-size: 1.9rem;
+}
+
+.resp-for {
+	display: none;
+	font-size: $font-reg;
+}
+.show-more {
+	cursor: pointer;
+	border-top: 1px solid $light;
+	margin: $margin 0;
+}
+.fa {
+	font-weight: 300;
+	font-size: 16px;
+	padding-left: 5px;
+}
+.skills-used {
+	font-size: .95rem;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	&:first-letter {
+		border-bottom: 2px solid $blue;
+		padding-bottom: 1px;
+	}
+}
+.skill-list {
+	font-size: .95rem;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #fff;
+	padding:0 20% 0 .5%;
+}
