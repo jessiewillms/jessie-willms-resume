@@ -1,0 +1,195 @@
+@media (max-width: 320px) {
+    /*html {
+        background: rgba(255, 0, 0, .5);
+        width: 320px;
+    }*/
+    body {
+        max-width: 320px;
+    }
+    section {
+        padding: 5% 10%;
+    }
+    nav {
+        max-width: 320px;
+        left: 0;
+    }
+    h1 {
+        font-size: 4em;
+        padding: 0% 15%;
+    }
+    p {
+        font-size: 1.75rem;
+    }
+    .dark-bkg p.skills-used {
+        text-align: left;
+        margin-top: 15px;
+    }
+    p.skills-used {
+        text-align: center;
+        line-height: 1.95;
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+        text-align: left;
+    }
+    p.num {
+        max-width: 13%;
+    }
+    ul.skill {
+        width: 95%;
+        min-height: 330px;
+        li p {
+            letter-spacing: 2px;
+        }
+    }
+    .mb-skills ul.skill {
+        min-height: 440px;
+    }
+    .line {
+        display: none;
+    }
+    .resp-for p {
+        font-size: 14px;
+    }
+}
+@media (min-width: 321px) and (max-width: 374px) {
+   /* html {
+        background: green;
+    }*/
+    body {
+        max-width: 374px;
+    }
+    ul.skill {
+        width: 95%;
+        min-height: 330px;
+        li p {
+            letter-spacing: 2px;
+        }
+    }
+    .mb-skills ul.skill {
+        min-height: 440px;
+    }
+    .line {
+        display: none;
+    }
+}
+@media (min-width: 375px) and (max-width: 385px) {
+    /*html {
+        background: hotpink;
+    }*/
+    body {
+        max-width: 385px;
+    }
+    section {
+      padding: 5% 7.5%;
+    }
+    ul.skill {
+        width: 95%;
+        min-height: 330px;
+        li p {
+            letter-spacing: 2px;
+        }
+    }
+    .mb-skills ul.skill {
+        min-height: 440px;
+    }
+    .line {
+        display: none;
+    }
+    p.skills-used {
+        letter-spacing: 2px;
+    }
+}
+@media (min-width: 386px) and (max-width: 600px) {
+   
+    body {
+        max-width: 600px;
+    }
+    section {
+      padding: 5% 7.5%;
+    }
+    ul.skill {
+        width: 45%;
+        min-height: 400px;
+        li p {
+            letter-spacing: 2px;
+        }
+    }
+    .mb-skills ul.skill {
+        min-height: 440px;
+    }
+    .line {
+        display: none;
+    }
+    p.skills-used {
+        letter-spacing: 2px;
+    }
+    p {
+      line-height: 2.5rem;
+      font-size: 1.5rem;
+    }
+}
+@media (min-width: 601px) and (max-width: 750px) {
+   /* html {
+        background: seagreen;
+    }*/
+    body {
+        max-width: 750px;
+        letter-spacing: 1px;
+    }
+    section {
+      padding: 5%;
+    }
+    p {
+      line-height: 2.5rem;
+      font-size: 1.5rem;
+    }
+    ul.skill li p {
+        letter-spacing: 1px;
+    }
+    ul.skill {
+        width: 45%;
+        min-height: 330px;
+    }
+    .mb-skills ul.skill {
+        min-height: 440px;
+    }
+    .skill-wrap .line {
+        display: none;
+    }
+    ul.skill .desc+p {
+      margin-top:  35px;
+    }
+    .line {
+        display: none;
+    }
+    p.skills-used {
+        letter-spacing: 2px;
+    }
+}
+@media (min-width: 751px) and (max-width: 805px) {
+    /*html {
+        background: purple;
+    }*/
+    body {
+        max-width: 805px
+    }
+    ul.skill li p {
+        letter-spacing: 1px;
+    }
+    ul.skill {
+        width: 45%;
+        height: 450px;
+    }
+    .mb-skills ul.skill {
+        min-height: 440px;
+    }
+    .skill-wrap .line {
+        display: none;
+    }
+    ul.skill .desc+p {
+      margin-top:  35px;
+    }
+    .line {
+        display: none;
+    }
+}
