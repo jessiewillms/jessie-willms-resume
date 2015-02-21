@@ -1,0 +1,28 @@
+.wrapper {
+	width: 100%;
+}
+
+header {
+	padding: 20% 5%;
+	background: url(img/bkg.jpg) no-repeat center center fixed; 
+	background-size: cover;
+	filter: grayscale(70%);
+
+	h1 {
+		font-size: 6rem;
+		text-align: center;
+		padding: $padding;
+		font-weight: 700;
+		color: $light;
+		&:first-letter {
+			border-bottom: 2px solid #2098d1;
+		}
+		& + p.skills-used {
+			color: $light;
+			text-align: center;
+		}
+	}
+}
+section {
+	padding: $padding;
+}
